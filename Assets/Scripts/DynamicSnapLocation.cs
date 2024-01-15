@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DynamicSnapLocation : MonoBehaviour
 {
-    [SerializeField]private Transform _pinchTransform;
+    [SerializeField] private Transform _pinchTransform;
     [SerializeField] private OVRHand _rightHand;
 
     void Start()
@@ -30,4 +30,6 @@ public class DynamicSnapLocation : MonoBehaviour
             }
         }
     }
+
+
 }
