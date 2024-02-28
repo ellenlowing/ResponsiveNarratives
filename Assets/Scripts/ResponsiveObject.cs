@@ -27,9 +27,6 @@ public class ResponsiveObject : MonoBehaviour
 
     public void HandleUnselect()
     {
-        // when unselect, object snaps into position on wall
-        // look at surface hit normal and check if it's horizontal or vertical
-        // if it's different from current form, start coroutine handleMorphTransition
 
         // If snap location surface is horizontal 
         // Caveat: surface is not always 100% up, so dot product is not always completely 0 or 1

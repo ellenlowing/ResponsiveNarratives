@@ -24,8 +24,6 @@ public class PassthroughPlaneHandler : MonoBehaviour
         {
             dimensions = plane.Dimensions;
             dimensions.z = 1;
-            gameObject.layer = LayerMask.NameToLayer("PassthroughPlane");
-            gameObject.transform.GetChild(0).gameObject.layer = LayerMask.NameToLayer("PassthroughPlane");
 
             // if(_classification.Contains(OVRSceneManager.Classification.Floor))
             // {
@@ -43,7 +41,6 @@ public class PassthroughPlaneHandler : MonoBehaviour
             //     gameObject.transform.GetChild(0).gameObject.layer = LayerMask.NameToLayer("Wall");
             //     gameObject.tag = "Wall";
             //     gameObject.transform.GetChild(0).tag = "Wall";
-
             // }
         }
     }

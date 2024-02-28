@@ -40,11 +40,181 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/ObjectManipulator.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/SPPquad.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/FlashlightController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DistanceGrab/Scripts/GrabManager.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/SimpleResizer/SimpleResizable.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/SetMeshBarycentricCoordinates.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DistanceGrab/Scripts/DistanceGrabber.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/RequestCaptureFlow.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportAimHandler.cs" />
      <Compile Include="Assets/Scripts/Morph/Morpher.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportDestination.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/TrainCarBase.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/TrainLocomotive.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DebugUI/Scripts/DebugUIBuilder.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/WindmillController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/CustomSceneManager/PrefabSceneManager.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/TrainTrack.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/PassthroughStyler.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Tools/InteractableToolView.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/TouchControllers/TouchController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/HandMeshUI.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportOrientationHandlerHMD.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/SelectivePassthroughExperience.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTargetHandlerNavMesh.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/CustomSceneManager/BasicSceneManager.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportPoint.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/CustomSceneManager/DynamicSceneManager.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/InteractableToolsCreator.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportAimHandlerLaser.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportInputHandlerTouch.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SpatialAnchor/Scripts/SpatialAnchorLoader.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/AppDeeplink/AppDeeplinkUI.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/PassthroughBrush.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/ControllerBoxController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/VolumeAndPlaneSwitcher.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Interactable.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Locomotion/Scripts/LocomotionSampleSupport.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/LocomotionTeleport.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/DistanceGrab/Scripts/DistanceGrabberSample.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/BoneCapsuleTriggerLogic.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Video/Scripts/MoviePlayerSampleControls.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/DebugUI/DebugUISample.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Video/Scripts/MediaPlayerImage.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/OverlayPassthrough.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/StartScene/Scripts/StartMenu.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Video/Plugins/Android/NativeVideoPlayer.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DistanceGrab/Scripts/GrabbableCrosshair.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/ColliderZone.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SpatialAnchor/Scripts/AnchorSpawner.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/PassthroughSurface.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/SceneSampler.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/BrushController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/StylusTip/StylusTip.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/WindmillBladesController.cs" />
      <Compile Include="Assets/Scripts/ResponsiveObject.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Tools/FingerTipPokeTool.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/Flashlight.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/OVROverlay/Scripts/OVROverlaySample.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/Ui/UiDeviceInspector.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/SceneSettings.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/HandMeshMask.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTransition.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/EnableUnpremultipliedAlpha.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Firebase/SampleUI.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportOrientationHandler360.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Tools/RayTool.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/Ui/UiAxis2dInspector.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/MyCustomSceneModelLoader.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Video/Scripts/MoviePlayerSample.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DistanceGrab/Scripts/DistanceGrabbable.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTargetHandler.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Locomotion/Scripts/CharacterCapsule.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/TrainCar.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Tools/FingerTipPokeToolView.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/Spawnable.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DebugUI/Scripts/LaserPointer.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/HandsManager.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTransitionInstant.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/PassthroughController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportOrientationHandlerThumbstick.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTransitionWarp.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SpatialAnchor/Scripts/AnchorUIManager.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/Ui/UiBoolInspector.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/PassthroughPlayInEditor.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/LocomotionController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SpatialAnchor/Scripts/AnchorSession.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/PassthroughProjectionSurface.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/GrabObject.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTargetHandlerPhysical.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/BouncingBallMgr.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Passthrough/Scripts/AugmentedObject.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/PanelHMDFollower.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SpatialAnchor/Scripts/SpatialAnchorSession.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Firebase/AnalyticsUI.cs" />
      <Compile Include="Assets/Scripts/PassthroughPlaneHandler.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportSupport.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/InteractableRegistry.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportInputHandlerHMD.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/Firebase/StartCrashlytics.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportAimHandlerParabolic.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DistanceGrab/Scripts/ColorGrabbable.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/FurnitureSpawner.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/ButtonTriggerZone.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/Ui/UiAxis1dInspector.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/BouncingBallLogic.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Video/Scripts/ButtonDownListener.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/SelectionCylinder.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/CustomSceneManager/SnapshotSceneManager.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/CustomHands/Scripts/HandPose.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Tools/PinchStateModule.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/Utils/Pose.cs" />
      <Compile Include="Assets/Scripts/DynamicSnapLocation.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/ButtonController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/TouchPro/Scripts/Haptics/LocalizedHaptics.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/CharacterCameraConstraint.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SpatialAnchor/Scripts/AnchorHelpers.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTargetHandlerNode.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportOrientationHandler.cs" />
      <Compile Include="Assets/Scripts/Morph/SliderAnimator.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/SimpleResizer/SimpleResizer.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/InteractableToolsInputRouter.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportTransitionBlink.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/CustomHands/Scripts/Hand.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/TrainCrossingController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Scripts/Tools/RayToolView.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/CustomSceneManager/SceneManagerHelper.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SceneManager/Scripts/CustomSceneManager/DynamicSceneManagerHelper.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/TrainButtonVisualController.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportInputHandler.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/HandsActiveChecker.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/AppDeeplink/UI/CustomDebugUI.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/SpatialAnchor/Scripts/Anchor.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Video/Scripts/VectorUtil.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/DebugUI/Scripts/HandedInputSelector.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/SimpleCapsuleWithStickMovement.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Core/Locomotion/Scripts/TeleportAimVisualLaser.cs" />
+     <Compile Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Scripts/CowController.cs" />
+     <None Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/WireframeShader.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/Hidden.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/Wall.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Shaders/ButtonGlow.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/Passthrough/Materials/SelectivePassthrough.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/Passthrough/Materials/SelectivePassthroughSoft.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/OverwriteAlpha.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/DistanceGrab/Materials/CrosshairZCheat.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Shaders/GradientSkybox.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/Passthrough/Materials/PassthroughLine.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/Passthrough/Materials/BackgroundColor.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/Passthrough/Materials/FatFingers.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/InvisibleOccluder.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Shaders/OculusSampleTrainPropsShader.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/DistanceGrab/Materials/ToyCubeWithOutline.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/Locomotion/Materials/ColumnGlow.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/Video/Shaders/Multiview Stereo.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/DebugUI/Fonts/Montserrat/OFL.txt" />
+     <None Include="Assets/Samples/StarterSamples/Core/CustomHands/Shaders/Hands_01.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/HandsInteraction/Shaders/OculusSampleAlphaHandOutline.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/Passthrough/Materials/GlowEffect.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/HandsTrainExample/Shaders/OculusSampleTrainSmokeShader.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/Video/Plugins/Android/Audio360/NOTICE.txt" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/PassthroughShadow.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/Locomotion/Shaders/TriPlanarWorld.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/Video/Plugins/Android/Audio360/ThirdPartyNotices.txt" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/SceneObjectPreview.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/CustomHands/Materials/Hands_Transparent.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/StylizedOcclusions.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/CustomHands/Shaders/Hands_02.shader" />
+     <None Include="Assets/Samples/StarterSamples/Usage/SceneManager/Shaders/GlassMask.shader" />
+     <None Include="Assets/Samples/StarterSamples/Core/CustomHands/Materials/Hands_DiffBump.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -741,20 +911,20 @@
     <Reference Include="Oculus.Platform.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Oculus.Platform.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Meta.VoiceSDK.Mic.Other">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Other.dll</HintPath>
+    <Reference Include="meta.xr.sdk.sharedassets.editor">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/meta.xr.sdk.sharedassets.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Meta.VoiceSDK.Mic.Other">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Other.dll</HintPath>
     </Reference>
     <Reference Include="Meta.WitAi.Conduit.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.WitAi.Conduit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Oculus.Interaction.OVR.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Oculus.Interaction.OVR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="meta.xr.sdk.sharedassets.editor">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/meta.xr.sdk.sharedassets.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
@@ -807,17 +977,14 @@
     <Reference Include="Meta.Wit.Composer">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.Wit.Composer.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Meta.WitAi.TTS.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.WitAi.TTS.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="meta.xr.mrutilitykit">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/meta.xr.mrutilitykit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -825,11 +992,14 @@
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="meta.xr.mrutilitykit">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/meta.xr.mrutilitykit.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -873,8 +1043,8 @@
     <Reference Include="Unity.Timeline">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Meta.WitAi.TTS">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.WitAi.TTS.dll</HintPath>
+    <Reference Include="depthapi">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/depthapi.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
@@ -909,26 +1079,26 @@
     <Reference Include="Meta.WitAI.Lib.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.WitAI.Lib.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Meta.Voice.Samples.WitResponseDebugger">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.Voice.Samples.WitResponseDebugger.dll</HintPath>
-    </Reference>
     <Reference Include="Oculus.Interaction.OVR.Samples">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Oculus.Interaction.OVR.Samples.dll</HintPath>
+    </Reference>
+    <Reference Include="Meta.Voice.Samples.WitResponseDebugger">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.Voice.Samples.WitResponseDebugger.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="depthapi">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/depthapi.dll</HintPath>
+    <Reference Include="Meta.WitAi.TTS">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Meta.WitAi.TTS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
     <Reference Include="Oculus.Haptics.Editor">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Oculus.Haptics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Oculus.VR">
         <HintPath>/Users/ellenlo/games/unity/ResponsiveNarratives/Library/ScriptAssemblies/Oculus.VR.dll</HintPath>
